@@ -1,0 +1,16 @@
+{
+    "name": "ExAng1",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+        "angular": "~1.5.0",
+        "angular-route": "~1.5.0",
+        "angular-loader": "~1.5.0"
+    },
+    "devDependencies": {
+    }
+}

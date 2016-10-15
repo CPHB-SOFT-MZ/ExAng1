@@ -1,0 +1,92 @@
+<div class="row col-sm-12">
+    <h3>Details for {{dataCtrl.user.first}} {{dataCtrl.user.last}}</h3>
+    
+    <div class="col-sm-8">
+    <div class="row">
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Gender</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.gender}}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">First Name</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.first}}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Last Name</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.last}}
+            </div>
+        </div>
+    </div>
+        <hr>
+        <div class="row">
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Street</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.street}}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">City</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.city}}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Zip code</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.zip}}
+            </div>
+        </div>
+    </div>
+        <hr>
+        
+        <div class="row">
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Phone</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.phone}}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Cell</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.cell}}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+            <label class="label label-primary">Email</label>
+        </div>
+            <div class="col-sm-4">
+                {{dataCtrl.user.email}}
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+        <img ng-src="{{dataCtrl.user.picture.large}}" width="100%" alt="Large image">
+    </div>
+    
+</div>
+<a href="#/" ng-click="dataCtrl.populate()" class="btn  btn-warning">Back</a>
